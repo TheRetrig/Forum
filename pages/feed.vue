@@ -25,7 +25,9 @@
           </v-container> -->
         </v-container>
       </v-img>
-    <Post />
+    <!-- pass props in Post  -->
+    <Post />  
+    <!-- pass props in Post  -->
       </div>
 </template>
 
