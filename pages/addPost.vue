@@ -1,5 +1,5 @@
 <template>
-      <div>
+        <div>
         <v-img
         height="519px"
         width="1600px"
@@ -25,25 +25,16 @@
           </v-container> -->
         </v-container>
       </v-img>
-    <!-- pass props in Post  -->
-    <v-container v-for="(card, i) in cards" :key="i">
-    <Feed />
-      </v-container> 
-    <!-- pass props in Post  -->
-      </div>
+      <!-- form to upload files -->
+        </div>
 </template>
 
 <script>
-import Feed from '../components/Feed'
 export default {
-   components: {
-        Feed,
-    },
-     data: () => ({
-         cards: {
-
-         }
-     })
-  
+   
 }
 </script>
+
+<style>
+
+</style>
