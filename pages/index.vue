@@ -3,7 +3,6 @@
     <!-- image -->
     <v-img
       height="519px"
-      width="1600px"
       class="d-flex align-center"
       src="https://images.unsplash.com/photo-1517512006864-7edc3b933137?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
       gradient="to top right,  rgba(121, 121, 121, 0.33), rgba(51, 51, 51, 0.7)"
@@ -16,7 +15,6 @@
 
         <div class="container white--text text-h5 font-weight-bold">
           Join Us In revolutionizing your web experience
-          
         </div>
 
         <!-- <v-container>
@@ -34,17 +32,17 @@
     <v-container>
       <SliderCards />
     </v-container>
-    <div class="d-flex align-center container ">
+    <div class="d-flex align-center container">
       <div class="text-h4">Ceramic Community</div>
       <v-spacer></v-spacer>
       <v-btn color="#033349" class="white--text py-4">View All</v-btn>
     </div>
-    
+
     <v-container>
       <SliderCards />
     </v-container>
     <div class="d-flex align-center container">
-    <div class="text-h4">Trending now</div>
+      <div class="text-h4">Trending now</div>
       <v-spacer></v-spacer>
       <v-btn color="#033349" class="white--text py-4">View All</v-btn>
     </div>
@@ -55,7 +53,7 @@
 </template>
 
 <script>
-import SliderCards from '../components/sliderCards'
+import SliderCards from "../components/sliderCards";
 export default {
   components: {
     SliderCards,
@@ -63,7 +61,7 @@ export default {
   data: () => ({
     model: [],
   }),
-}
+};
 </script>
 
 <style>
