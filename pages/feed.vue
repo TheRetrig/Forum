@@ -27,7 +27,16 @@
       </v-img>
     <!-- pass props in Post  -->
     <v-container v-for="(card, i) in cards" :key="i">
-    <Feed />
+    <!-- <Feed 
+    :fullname: {{cards.fullname}}
+    :email: {{cards.email}}
+    :time: {{cards,time}}    
+    :title: {{cards.title}}
+    :textDesc: {{cards.textDesc}}
+    :imgUrl: {{cards.imgUrl}}
+    :likes: {{cards.likes}}
+    :comments: {{cards.comments}}
+    /> -->
       </v-container> 
     <!-- pass props in Post  -->
       </div>
@@ -41,7 +50,20 @@ export default {
     },
      data: () => ({
          cards: {
-
+           initials: 'AR',
+    fullName: 'Anshul Rai',
+    email: 'auralshin@gmail.com',
+    time: '5hrs',    
+    title: 'Welcome to Ceramic',
+    textDesc: 'ldkjfh divfhdik diuewdijh vfu dijkhui jfvhueijbhfuij fhbeujhbuirejkfhbgur bhfdueiokjhuirao',
+    imgUrl: String,
+    likes: 56,
+    comments: 55,
+    isLiked: True,
+    commentIds: [52,45,84,74],
+    author: Object,
+    callback: Function,
+    contactsPromise: Promise 
          }
      })
   
